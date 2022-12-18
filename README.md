@@ -1,15 +1,28 @@
-<p>Clarusway<img align="right"
-  src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
+# Task Tracker
 
-# Project-003 : Task Tracker (RP-03)
+## Expected Outcome
 
-## Description
+![Project 003 Snapshot](react-task-tracker.gif)
 
-Project aims to create a Task Tracker App.
+# Deployed Frontend
 
-## Problem Statement
+## https://mfurkan40.github.io/React-Task-Tracker/
 
-- We are adding a new project to our portfolios. So you and your colleagues have started to work on the project.
+# API Base URLs
+
+## https://63976bd277359127a037131b.mockapi.io/api/tasks
+
+- The API was created and used for free via mockApi.io websites
+- Then, a tutorial app list similar to To Do list was created by performing CRUD operations with axios
+
+### API ENDPOINTS
+
+- GET `api/tasks` get all Tutorials
+- GET `api/tasks/:id` get Tutorial by id
+- POST `api/tasks` add new Tutorial
+- PUT `api/tasks/:id` update Tutorial by id
+- DELETE `api/tasks/:id` remove Tutorial by id
+- DELETE `api/tasks` remove all Tutorials
 
 ## Project Skeleton
 
@@ -38,14 +51,6 @@ SOLUTION
 ├── package.json
 └── yarn.lock
 ```
-
-## Expected Outcome
-
-![Project 003 Snapshot](react-task-tracker.gif)
-
-## Objective
-
-Build a Task Tracker App using ReactJS.
 
 ### At the end of the project, following topics are to be covered;
 
@@ -76,12 +81,6 @@ Build a Task Tracker App using ReactJS.
 - Step 5: Push your application into your own public repo on Github
 
 - Step 6: Add project gif to your project and README.md file.
-
-## Notes
-
-- You can add additional functionalities to your app.
-
-**<p align="center">&#9786; Happy Coding &#9997;</p>**
 
 # Getting Started with Create React App
 
